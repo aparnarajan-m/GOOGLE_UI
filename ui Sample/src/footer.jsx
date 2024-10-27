@@ -1,20 +1,20 @@
 
-function Footer(params) {
+function Footer() {
     return(
         <div className='footerDiv'>
         <div className='footer1'>
-          <h3>India</h3>
+          <h4 className="footer-india">India</h4>
         </div>
         <div className='footer2'>
           <div className='foot1'>
-          <h3>Advertising</h3>
-          <h3>Business</h3>
-          <h3>How Search works</h3>
+          <a className="navlink footer-a">Advertising</a>
+          <a className="navlink footer-a">Business</a>
+          <a className="navlink footer-a">How Search works</a>
           </div>
           <div className='foot2'>
-            <h3>Privacy</h3>
-            <h3>Terms</h3>
-            <h3>Settings</h3>
+            <a className="navlink footer-a">Privacy</a>
+            <a className="navlink footer-a">Terms</a>
+            <a className="navlink footer-a">Settings</a>
           </div>
         </div>
         </div>

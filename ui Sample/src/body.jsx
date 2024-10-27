@@ -15,7 +15,7 @@ function Body() {
         </div>
         <div className='buttons'>
           <button className='button'>Google Search</button>
-          <button className='button'>Iam Feeling Lucky</button>
+          <button className='button'>I'm Feeling Lucky</button>
         </div>
         <div className='nameLinks'>
           <h3 className='offered'>Google offered in:</h3>

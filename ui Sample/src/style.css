@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(32,33,36);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 .nav{
     width: 100%;
@@ -93,12 +93,16 @@ input{
     margin: 30px 0px 28px 0px;
 }
 .button{
-    padding: 9px;
+    padding: 12px 20px;
     margin-left: 18px;
     border-radius: 3px;
     border: none;
     color: white;
+    font-size: 14px;
     background-color: rgb(48,49,52);
+}
+.button:hover{
+    border: 1px solid rgb(110, 108, 108);
 }
 .nameLinks{
     width: 36%;
@@ -106,12 +110,13 @@ input{
     justify-content: space-between;
 }
 .offered{
-    font-size: small;
+    color: rgb(156, 154, 154);
+    font-size: 14px;
 }
 .nameLinks a{
-    font-size: small;
+    font-size: 14.5px;
     text-decoration: none;
-    color: rgb(85, 157, 191);
+    color: rgb(153,193,247);
 }
 .footerDiv{
     width: 100%;
@@ -125,36 +130,29 @@ input{
     align-items: center;
 }
 .footer1{
-    border-bottom:  1px solid rgb(95, 94, 94);
+    border-bottom: 1px solid rgb(95, 94, 94);
 }
 .footer2{
     justify-content: space-between;
 }
+.footer-india{
+    color: white;
+    font-size: medium;
+    margin-left: 50px;
+}
 .foot1, .foot2{
     display: flex;
 }
-h3{
-    color: white;
-    font-size: medium;
-    margin-left: 20px; 
+.foot1{
+    margin-left: 25px;
 }
-a{
-    text-decoration: none;
+.foot2{
+    margin-right: 30px;
+}
+.footer-a{
+    font-size: medium;
+    margin-left: 25px; 
 }
 a:hover{
     text-decoration: underline;
 }
-/* @media(max-width:768px){
-    .bodyItems{
-        height: 73%;
-    }
-    .nav{
-        width: 80%;
-    }
-     .nav1{
-        width: 20%;
-     }
-     .nav2{
-        width: 30%;
-     }
-} */
